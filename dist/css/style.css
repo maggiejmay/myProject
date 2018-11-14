@@ -4,5 +4,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+
+}
+h1 {
+    color: rgb(250, 205, 57);
+}
+p {
+    color: rgb(0, 0, 0);
 }
