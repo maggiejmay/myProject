@@ -4,54 +4,98 @@
         <title>About Me</title>
         <link rel="stylesheet" href="style.css">
 <style>
- 
-div {
-    background-color: rgb(248, 248, 248);
-    width: 280px;
-    border: 12px solid rgba(228, 194, 42, 0.514);
-    padding: 25px;
-    margin: 25px;
+     
+          
+        
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
 }
-ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          width: 200px;
-          background-color: #f1f1f1;
-      }
-      
-      li a {
-          display: block;
-          color: #000;
-          padding: 8px 16px;
-          text-decoration: none;
-      }
-      
-      
-      li a:hover {
-          background-color: rgba(228, 194, 42, 0.514);;
-          color: white;
-      }
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(221, 180, 45);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(252, 194, 5);
+  
+}
+
+
+.topnav a.active {
+  background-color: rgb(241, 206, 50);
+  color: white;
+}
+
+.main-border{
+            padding: 25px;
+            border: 12px solid rgba(228, 194, 42, 0.514);
+            margin: 10px;
+            width: 350px;
+            height:100vh;
+
+}
+
+    .inner-border{
+        padding: 10px;
+        border: 8px solid rgba(228, 194, 42, 0.514);
+        margin: 10px;
+        width: 300px;
+
+    }
+
+    .main-title{
+            text-align: center;
+            color: rgb(228, 178, 42);
+
+        }
 
 </style>
-<a href="index.html">Home</a>
+          
+
+          
+
 <p style="text-align: center;"></p>
 </head>
-<div>
+<div class="main-border">
     
-<h1> About Me</h1>
-</div>
+
+        <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a href="Media.html">Portfolio</a>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+              </div>
+<h1 class="main-title"> About Me</h1>
+
 <body>
-    <div>
+    <div class="inner-border">
+        
         <img src="images/me.png" width="300" height="320" alt="me">
+       <p class="main-title"> My name is Maggie Maltese. I am a Game Design student with a minor in Graphic Design at Drexel University. </p>
+  
+
+   
     </div>
         </body>
 <body>
 <p>
-    <div>
+   
 
-   My name is Maggie Maltese. I am a Game Design student at Drexel University. This is my portfolio.
-</div>
 </p>
+</div>
 </body>
 </html>

@@ -33,13 +33,38 @@ body {
 .topnav a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(252, 194, 5);
-  }
+  
+}
 
 
 .topnav a.active {
   background-color: rgb(241, 206, 50);
   color: white;
 }
+
+.main-border{
+            padding: 25px;
+            border: 12px solid rgba(228, 194, 42, 0.514);
+            margin: 10px;
+            width: 350px;
+            height:100vh;
+
+}
+
+    .inner-border{
+        padding: 10px;
+        border: 8px solid rgba(228, 194, 42, 0.514);
+        margin: 10px;
+        width: 300px;
+
+    }
+
+    .main-title{
+            text-align: center;
+            color: rgb(228, 178, 42);
+
+        }
+
 </style>
 
 
@@ -48,7 +73,8 @@ body {
       <body>
       
         
-      
+      <div class ="main-border">
+
       <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="resume.html">Resume</a>
@@ -57,34 +83,27 @@ body {
         <a href="contact.html">Contact</a>
       </div>
       
-      <div style="padding-left:16px">
+      <div style="padding-left:16px"></div>
         <h2></h2>
         <p></p>
-      </div>
+      
       
       </body>
       </html>
       
       </head>
       <body>
-            <div> <h1>Maggie Maltese </h1>
+            <div class="inner-border"> <h1 class="main-title">Maggie Maltese </h1>
 
-                <p>Welcome to My Portfolio </p>
-                 <!-- <ul>  
-                          
-                          <li><a href="resume.html">Resume</a></li>
-                          <li><a href="Media.html">Portfolio</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                        </ul>
-          </div>
-        -->
-      <div>
+                <p class="main-title">Welcome to My Portfolio </p>
+                
+      
       <img src="images/roses.jpg" alt="roses" width="300" height="280">
-        </div>
-      
        
-      
+    
+       
+  
       </body>
+  
 </html>
 
