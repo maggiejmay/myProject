@@ -20,3 +20,18 @@ h1 {
 p {
     color: rgb(0, 0, 0);
 }
+
+/*.container-name div {
+   display: inline-block;
+    width: 500px;
+    min-height: 50px;
+    background-color: #eee;
+    height: auto;
+    
+    padding: 25px;
+    border: 12px solid rgba(228, 194, 42, 0.514);
+    margin: 10px;
+    width: 350px;
+  }
+  
+  */ 
