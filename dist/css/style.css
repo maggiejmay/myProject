@@ -1,8 +1,9 @@
-*{
+/*
+{
     margin: 0;
     padding: 0;
 }
-
+*/
 header{
     font-family: 'Times New Roman', Times, serif;
        
@@ -21,11 +22,7 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.main_border
-{
 
-    height:100vh;
-}
 /*.container-name div {
    display: inline-block;
     width: 500px;
